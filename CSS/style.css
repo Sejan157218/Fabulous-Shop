@@ -88,6 +88,28 @@ width: 50%;
     font-size: 15px;
 }
 
+/* Banner */
+.banner-section{
+    background-image: url(/images/banner.jpg),linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    display: flex;
+  
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+.banner-text{
+    color: #FFF;
+    padding-left: 8%;
+   
+}
+.banner-text h1{
+    width: 60%;
+   
+}
 
 /* Mobile responsive */
 @media only screen and (max-width:688px){
