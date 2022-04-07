@@ -1,0 +1,135 @@
+/* header */
+.logo{
+    font-size: 45px;
+    font-weight: 500;
+    color: #FFF;
+
+}
+.logo-s{
+    margin-left: -2px;
+}
+
+.catagories{
+    font-size: 16px;
+    color: #FFF;
+    background-color: #E30047;
+    font-weight: 400;
+    padding: 14px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.header-container{
+    background-color: #232F3F;
+}
+.search{
+    width: 50%;
+
+}
+.search-box{
+    background-color: #34465C;  
+    font-weight: 300;
+    border: none;
+    width: 78%;
+    height: 44px;
+    padding: 1rem;
+    color:#fff;
+}
+.search-btn{
+    color: #FFF;
+    height: 44px;
+    border: none;
+    padding: 0px 10px;
+    background-color: #E8AA02;
+    margin-left: -4px;
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.form-select{
+    height: 44px;
+    background-color:#34465C ;
+    border: none;
+    width: 28%;
+    color: #ACB8C8;
+    font-weight: 500;
+    border-radius: 0px;
+}
+.form-select:focus {
+   
+    box-shadow: 0 0 0 0;
+}
+
+.shopping-cart{
+    background-color: #E8AA02;
+    color: #FFF;
+    height: 44px;
+    padding: 0px 8px;
+}
+.cart-section{
+width: 50%;
+}
+
+/* address and nav*/
+.address-section{
+    color:#5D6265;
+    font-size: 15px;
+}
+
+
+.nav-bar ul{
+    list-style: none;
+   
+}
+.nav-bar li a{
+    text-decoration: none;
+    color:#5D6265;
+    font-size: 15px;
+}
+
+
+/* Mobile responsive */
+@media only screen and (max-width:688px){
+    .search-section{
+flex-direction: column;
+    }
+    .search{
+        width: 100%;
+    
+    }
+    .cart-section{
+        width: 100%;
+        margin-top: 10px;
+        }
+}
+/* Tab responsive */
+@media only screen and (min-width:689px) and (max-width:992px){
+    .logo {
+        font-size: 35px;
+    
+    }
+    .search-box{
+        width: 60%;
+        height: 26px;
+
+    }
+    .search-btn {
+        height: 32px;
+    }
+    .form-select {
+        width: 26%;
+        height: 32px;
+        font-size: 10px;
+    }
+    .shopping-cart{
+        height: 32px;
+        font-size: 10px;
+    }
+    .address-section {
+        font-size: 9px;
+    }
+    .nav-bar li a {
+        font-size: 9px;
+    }
+}
