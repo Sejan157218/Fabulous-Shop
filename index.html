@@ -24,7 +24,7 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-3 col-lg-3 "> <span class="logo"> <span>𝓕</span
+                    <div  class="col-12 col-md-3 col-lg-3 "> <span class="logo"> <span>𝓕</span
                                 class="logo-s">abulous</span></div>
                     <div class="col-12 col-md-9 col-lg-9 mt-2">
                         <div class="d-flex align-items-center search-section">
@@ -55,13 +55,14 @@
 
                 <!-- category bar -->
                 <div class="row">
-                    <div class="col-12 col-md-3 col-lg-3 ">
-                        <h4 class="catagories">
+                    
+                    <div class="col-12 col-md-3 col-lg-3 col order-2 order-2 order-md-1" >
+                        <h4 id="display-cat" class="catagories">
                             <i class="fa-solid fa-bars"></i>
                             Catagories
                         </h4>
                     </div>
-                    <div class="col-12 col-md-9 col-lg-9 d-flex align-items-center search-section address-div">
+                    <div class="col-12 col-md-9 col-lg-9 d-flex align-items-center search-section address-div order-1 order-md-2">
 
                         <div class="search mx-1">
                             <!-- address bar -->
@@ -107,39 +108,51 @@
     <!-- Main -->
     <main class=" main-section">
         <div class="container">
-            <h3 class="category-nav py-3">Home / Women / <span style="color: #000;">Clothing</span></h3>
+            <h3 class="category-nav py-3 catagories-section">Home / Women / <span
+                    style="color: #000;">Clothing</span></h3>
             <div class="row">
                 <!-- Catagories -->
-                <div class="col-md-3 col-lg-3">
+                <div id="display-cat-class" class="col-md-3 col-lg-3 catagories-section">
                     <div class="category-bar p-4">
-                        <h5 class="fw-bold py-2">Short By</h5>
+                        <div  class="d-flex justify-content-between">
+                            <h5 class="fw-bold py-2">Short By</h5>
+                            <h5 id="hide-cat" class="fw-bold py-2 cat-close">X</h5>
+                        
+                        </div>
                         <hr class="mt-0 mb-2">
                         <p class="fs-6 mb-1" style="font-weight: 500!important;">Shopping Options</p>
                         <!-- Price -->
                         <div>
                             <p class="fw-bold fs-6 mb-1">Price</p>
-                            <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> $0.00 - $99.99 (6)
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-solid fa-greater-than catagories-item-icon"></i> $0.00 - $99.99 (6)
                             </p>
-                            <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> $0.100 and above(6)
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-solid fa-greater-than catagories-item-icon"></i> $0.100 and above(6)
                             </p>
                         </div>
 
                         <!-- Manufacturer -->
                         <div>
                             <p class="fw-bold fs-6 mb-1">Manufacturer</p>
-                            <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> Kids Dresses (20)
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-solid fa-greater-than catagories-item-icon"></i> Kids Dresses (20)
                             </p>
-                            <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i>
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-solid fa-greater-than catagories-item-icon"></i>
                                 Unisex Clothing (25)
                             </p>
-                            <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i>
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-solid fa-greater-than catagories-item-icon"></i>
                                 Winter Wear (8)
                             </p>
-                            <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i>
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-solid fa-greater-than catagories-item-icon"></i>
                                 Garments (5)
                             </p>
-                            
-                            <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i>
+
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-solid fa-greater-than catagories-item-icon"></i>
                                 Undergarments (2)
                             </p>
                         </div>
@@ -149,73 +162,79 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="catagories-item" for="flexCheckDefault ">
-                                  Cotton
+                                    Cotton
                                 </label>
-                              </div>
+                            </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="catagories-item" for="flexCheckDefault ">
-                                 Denim
+                                    Denim
                                 </label>
-                              </div>
+                            </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="catagories-item" for="flexCheckDefault ">
-                                  Linen
+                                    Linen
                                 </label>
-                              </div>
+                            </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="catagories-item" for="flexCheckDefault ">
-                                  Rayon
+                                    Rayon
                                 </label>
-                              </div>
+                            </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="catagories-item" for="flexCheckDefault ">
-                                  Synthetic
+                                    Synthetic
                                 </label>
-                              </div>
+                            </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="catagories-item" for="flexCheckDefault ">
-                                 Satin
+                                    Satin
                                 </label>
-                              </div>
+                            </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 <label class="catagories-item" for="flexCheckDefault ">
-                                  Silk
+                                    Silk
                                 </label>
-                              </div>
-                           
+                            </div>
 
-                                <!-- Size -->
-                        <div>
-                            <p class="fw-bold fs-6 my-2">Size</p>
-                        <span class="size-item">S</span>
-                        <span class="size-item">L</span>
-                        <span class="size-item">M</span>
-                        <span class="size-item">XL</span>
-                        <span class="size-item">XXL</span>
-                        </div>
 
-                             <!-- Color -->
-                             <div>
+                            <!-- Size -->
+                            <div class="size-item-div">
+                                <p class="fw-bold fs-6 my-2">Size</p>
+                                <span class="size-item">S</span>
+                                <span class="size-item">L</span>
+                                <span class="size-item">M</span>
+                                <span class="size-item">XL</span>
+                                <span class="size-item">XXL</span>
+                            </div>
+
+                            <!-- Color -->
+                            <div>
                                 <p class="fw-bold fs-6  my-2">Color</p>
-                                <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> Green (1)
+                                <p class="catagories-item mb-1"><i
+                                        class="fa-solid fa-greater-than catagories-item-icon"></i> Green (1)
                                 </p>
-                                <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> White (5)
+                                <p class="catagories-item mb-1"><i
+                                        class="fa-solid fa-greater-than catagories-item-icon"></i> White (5)
                                 </p>
-                                <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> Black (5)
+                                <p class="catagories-item mb-1"><i
+                                        class="fa-solid fa-greater-than catagories-item-icon"></i> Black (5)
                                 </p>
-                                <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> Gray (4)
+                                <p class="catagories-item mb-1"><i
+                                        class="fa-solid fa-greater-than catagories-item-icon"></i> Gray (4)
                                 </p>
-                                <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> Dark Gray (3)
+                                <p class="catagories-item mb-1"><i
+                                        class="fa-solid fa-greater-than catagories-item-icon"></i> Dark Gray (3)
                                 </p>
-                                <p class="catagories-item mb-1"><i class="fa-solid fa-greater-than catagories-item-icon"></i> Blue (1)
+                                <p class="catagories-item mb-1"><i
+                                        class="fa-solid fa-greater-than catagories-item-icon"></i> Blue (1)
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -224,13 +243,37 @@
                     <div class="category-bar p-4 my-3">
                         <div>
                             <p class="fw-bold fs-5 mb-1">PRICE</p>
+
                             <hr class="my-1" style="background-color: #d6c9c9;height: 2px;">
-                            <p class="catagories-item mb-1"><i class="fa-regular fa-square catagories-item-icon-square"></i> $20 - $100 (6)
+
+                            <h6 class="catagories-item mb-1">Range : $10 - $550</h6>
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-regular fa-square catagories-item-icon-square"></i> $20 - $100 (6)
                             </p>
-                            <p class="catagories-item mb-1"><i class="fa-regular fa-square catagories-item-icon-square"></i> $100 - $300 (12)
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-regular fa-square catagories-item-icon-square"></i> $100 - $300 (12)
                             </p>
-                            <p class="catagories-item mb-1"><i class="fa-regular fa-square catagories-item-icon-square"></i> $300 - $500 (15)
+                            <p class="catagories-item mb-1"><i
+                                    class="fa-regular fa-square catagories-item-icon-square"></i> $300 - $500 (15)
                             </p>
+                        </div>
+                    </div>
+
+                    <!-- My Cart -->
+                    <div class="category-bar p-4 my-3">
+                        <p class="fw-bold fs-5 mb-1">MY CART</p>
+                        <hr class="my-1" style="background-color: #d6c9c9;height: 2px;">
+                        <p class="cart-text mb-1">There are 3 items in your cart.</p>
+                        <p class="cart-text-subtotal ">Cart Subtotal: $227.00</p>
+                        <button class="checkout-btn">CHECKOUT</button>
+                        <p class="cart-text my-2">Recently added item (s)</p>
+                        <div class="d-flex">
+                            <img src="/Images/dress/dress2.jpg" class="cart-img" alt="">
+                            <div class="ms-2 cart-product-title">
+                                <h6>Products title here</h6>
+                                <h6>1 x $99.99</h6>
+                            </div>
+                            <button class="cart-delete-btn">X</button>
                         </div>
                     </div>
                 </div>
@@ -378,6 +421,7 @@
                                 <img src="/Images/dress/dress7.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Product Title is here</h5>
+
                                     <p class="mb-1" style="font-size: small;">
                                         <i class="fa-solid fa-star start-icon-color"></i>
                                         <i class="fa-solid fa-star start-icon-color"></i>
@@ -405,6 +449,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script>
+        const displayCat = document.getElementById('display-cat');
+        const displayCatClass = document.getElementById('display-cat-class');
+
+
+        displayCat.addEventListener('click', function () {
+         
+            displayCatClass.classList.remove('catagories-section');
+            displayCatClass.classList.add('catagories-section-display');
+            
+            
+        })
+        const hideCat = document.getElementById('hide-cat');
+   
+
+
+        hideCat.addEventListener('click', function () {
+         
+            displayCatClass.classList.remove('catagories-section-display');
+            displayCatClass.classList.add('catagories-section');
+            
+            
+        })
+
+    </script>
 </body>
 
 </html>
